@@ -1,0 +1,12 @@
+==== Pendencias da página ====
+
+- Definir uma Estrutura HTML para a pagina
+    |-> Estudar sobre as tags
+    |-> Projetar a estrutura da página
+    |-> Reestruturar index.html
+
+- Adicionar recursos Visuais CSS na página 
+    |-> Esturar CSS basico para estilização
+    |-> Adicionar alterações na página
+
+
