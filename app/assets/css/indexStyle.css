@@ -1,0 +1,39 @@
+div.polaroid{
+    width: 24%;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+div.container{
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.responsive {
+    margin: 0 6px;
+    float: left;
+    width: 24%;
+}
+
+@media only screen and (max-width: 700px){
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .responsive {
+    width: 100%;
+  }
+}
+
+ul.stacks{
+    list-style-type: none;
+    display: inline-block;
+}

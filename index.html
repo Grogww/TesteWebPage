@@ -5,17 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Web Page</title>
     <link rel="icon" type="image/png" href="app/assets/icons/scroll.png">
+    <link rel="stylesheet" href="app/assets/css/indexStyle.css">
 </head>
 <body>
     <header>
         <a href="./README.md">Acessar ReadMe</a>
     </header>
-    <div>
-        <p><b>Eduardo Fritsch Silva</b></p>
-
-        <p>Sou um estudante de Ciências da Computação e estou atualmente estudando desenvolvimento com C#</p>
-    
-        <img src="app/assets/imgs/img1.jpg" width="90%" onclick="alert('Paisagem')">
+    <div id="Curriculum">
+        <div id="div-perfil">
+            <h2>Eduardo Fritsch Silva</h2>
+            
+            <p>Sou um estudante de Ciências da Computação e estou atualmente estudando desenvolvimento com C#</p>
+        </div>
+            
+        <div id="div-stacks">
+            <h3>Minhas Stacks</h3>
+            <ul class="stacks">
+                <li>
+                    <div class="polaroid responsive">
+                        <img src="app/assets/imgs/CSharp.png" class="stack-img" onclick="alert('C#')" alt="C Sharp">
+                        <div class="container">
+                            Desenvolvimento com C# e .Net
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="polaroid responsive">
+                        <img src="app/assets/imgs/git.webp" onclick="alert('Git')" alt="Git">
+                        <div class="container">
+                            Controle de Versão usando Git
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="polaroid responsive">
+                        <img src="app/assets/imgs/SqlServer.png" onclick="alert('SqlServer')" alt="Sql Server">
+                        <div class="container">
+                            Banco de Dados SQL Server
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="polaroid responsive">
+                        <img src="app/assets/imgs/DevBackEnd.png" onclick="alert('Desenvolvimento Back-End')" alt="Desenvolvimento Back-End">
+                        <div class="container">
+                            Desenvolvimento Back-End de Aplicações
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
